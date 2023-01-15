@@ -1,0 +1,24 @@
+Index: src/index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/index.js b/src/index.js
+--- a/src/index.js	
++++ b/src/index.js	(date 1673721679585)
+@@ -5,11 +5,14 @@
+ import reportWebVitals from './reportWebVitals';
+ import {BrowserRouter} from "react-router-dom";
+ 
++// let messageInfo = [{message:'hello Anton', likeCount:'10'},{message:'hello Denis',likeCount:'10'},{message:'hello Oleg',likeCount:'10'}];
++// let dialogsData = [{id: '1', name: 'Ваня'}, {id: '2', name: 'Петя'}, {id: '3', name: 'Денис'}, {id: '4', name: 'Артём'}];
++
+ const root = ReactDOM.createRoot(document.getElementById('root'));
+ root.render(
+     <React.StrictMode>
+         <BrowserRouter>
+-            <App/>
++            <App />
+         </BrowserRouter>
+     </React.StrictMode>
+ );

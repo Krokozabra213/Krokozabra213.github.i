@@ -1,0 +1,8 @@
+.messages{
+
+}
+
+.messagesitem{
+    display: flex;
+    flex-direction: column;
+}

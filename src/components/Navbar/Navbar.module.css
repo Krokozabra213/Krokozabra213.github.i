@@ -1,0 +1,26 @@
+.nav {
+  grid-area: n;
+  background-color: rgb(208, 221, 192);
+}
+.wrapper {
+  float: right;
+  margin-right: 10px;
+}
+.item {
+  text-decoration: none;
+}
+.item:first-child {
+  margin-top: 10px;
+}
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.active {
+  color: green;
+;
+}

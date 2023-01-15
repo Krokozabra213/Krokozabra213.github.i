@@ -1,0 +1,13 @@
+.img {
+    width: 1000px;
+    height: 400px;
+}
+
+
+.profile__wrapper   {
+    padding: 10px;
+}
+
+.avatar__wrapper    {
+    font-size: 26px;
+}

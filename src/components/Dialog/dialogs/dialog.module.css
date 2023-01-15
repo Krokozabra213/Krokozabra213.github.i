@@ -1,0 +1,13 @@
+.dialogs {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.dialogsitem{
+    font-size: 22px;
+}
+
+.active {
+    color: green;
+}
